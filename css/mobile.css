@@ -1,0 +1,93 @@
+@media (max-width: 768px) {
+    .mobileCover{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 55;
+        background:#5d0f66;
+        color:#fcca00;
+        text-align: center;
+        font-size:2.5rem;
+    }
+    .mobileCover>p {
+        width:80%;
+        margin:0 auto;
+        word-break: keep-all;
+    }
+    .mobileCover figure{
+        width:90%;
+    }
+    .mobileCover figure>img {
+        width:100%;
+    }
+    .wrap {
+        display: none;
+    }
+    /* 고양이 손 */
+    .hand {
+        animation: cathand01_mobile 250ms 16 3.57s ease-in-out alternate;
+    }
+    
+    .mobileIntro {
+        position:relative;
+        width:100%;
+        height:50%;
+        object-fit: cover;
+    }
+    .mobileIntro>figure{
+        position: absolute;
+        bottom:10%;
+        left:50%;
+        transform: translateX(-38%)translateY(10%);
+    }
+
+    .cardAni ul li {
+        width: 35%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform-origin: center center;
+        transition: all 2s ease-out;
+    }
+
+    .cardAni ul li:nth-of-type(1) {
+        transform: translate(-171%, -95%) rotate(0deg) rotateY(180deg);
+    }
+    
+    .cardAni ul li:nth-of-type(2) {
+        transform: translate(-138%, -80%) rotate(0deg) rotateY(180deg);
+    }
+    
+    .cardAni ul li:nth-of-type(3) {
+        transform: translate(-50%, -68%) rotate(0deg) rotateY(180deg);
+    }
+    
+    .cardAni ul li:nth-of-type(4) {
+        transform: translate(29%, -79%) rotate(0deg) rotateY(180deg);
+    }
+    
+    .cardAni ul li:nth-of-type(5) {
+        transform: translate(95%, -93%) rotate(0deg) rotateY(180deg);
+    }
+    
+    .cardAni ul li:nth-of-type(6) {
+        transform: translate(-140%, 31%) rotate(0deg) rotateY(180deg);
+    }
+    
+    .cardAni ul li:nth-of-type(7) {
+        transform: translate(-50%, 47%) rotate(0deg) rotateY(180deg);
+    }
+    
+    .cardAni ul li:nth-of-type(8) {
+        transform: translate(32%, 32%) rotate(0deg) rotateY(180deg);
+    }
+    /* 맨처음 고정된 모양 */
+    .cardAni ul li.on {
+        transform: translate(10%, -250%) rotate(180deg) rotateY(180deg);
+    }
+}

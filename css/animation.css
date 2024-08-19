@@ -1,0 +1,139 @@
+/* 로딩페이지 끝내기 */
+@keyframes up {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-200%);
+    }
+}
+/* 카드 펼치는 고양이 손 */
+@keyframes cathand01 {
+    0% {
+        transform: translateX(-100%) rotate(-180deg);
+    }
+
+    100% {
+        transform: translateX(-100%) rotate(0deg);
+    }
+}
+@keyframes cathand01_mobile {
+    0% {
+        transform: translate(-145%, -92%) rotate(207deg);
+    }
+
+    100% {
+        transform: translate(-135%, -61%) rotate(240deg);
+    }
+}
+
+/* 이력 마스코트 손 */
+@keyframes swingLeftHand {
+    0% {
+        transform: rotate(-4deg);
+    }
+
+    100% {
+        transform: rotate(10deg);
+    }
+}
+
+@keyframes bubbleMove01 {
+    0% {
+        transform: rotate(-195deg);
+    }
+    100% {
+        transform: rotate(160deg);
+    }
+}
+@keyframes bubbleMove02 {
+    0% {
+        transform: rotate(155deg);
+    }
+    100% {
+        transform: rotate(-173deg);
+    }
+}
+@keyframes bubbleMove03 {
+    0% {
+        transform: rotate(435deg);
+    }
+    100% {
+        transform: rotate(65deg);
+    }
+}
+@keyframes cloudSwing {
+    0%{
+        transform: rotate(-20deg);
+    }
+    100{
+        transform: rotate(5deg);
+    }
+}
+@keyframes cloudSwing2 {
+    0%{
+        transform: rotate(-5deg);
+    }
+    100{
+        transform: rotate(35deg);
+    }
+}
+/* 램프 마스코트 애니 */
+@keyframes swingHand {
+    0% {
+        transform: translate(-7%, -4%) rotate(-4deg);
+    }
+
+    100% {
+        transform: translate(5%, -14%) rotate(7deg)
+    }
+}
+@keyframes swingTail {
+    0% {
+        transform: rotate(-24deg);
+    }
+
+    100% {
+        transform: rotate(14deg);
+    }
+}
+/* 빔프로젝터 마스코트 애니 */
+@keyframes beamMasLeftHand {
+    0%{transform: rotate(10deg);}
+    100%{transform: rotate(0deg);}
+}
+@keyframes beamMasRightHand {
+    0%{transform: rotate(rotate(-8deg));}
+    100%{transform: rotate(8deg);}
+}
+@keyframes beamMasheadBanging {
+    0%{transform: rotate(-26deg);}
+    100%{transform: rotate(-13deg);}
+}
+/* 후광 회전 */
+@keyframes lightSwing {
+    0%{
+        transform:translate(22%, -48%) rotateY(180deg) rotate(-24deg);
+    }
+    100%{
+        transform:translate(22%, -48%) rotateY(180deg) rotate(-17deg);
+    }
+}
+/* 배너 카드 나타내는 애니메이션 */
+@keyframes bannerCardAni {
+    0%{
+        transform: translate(-150%, -50%) rotate(45deg);
+    }
+    100%{
+        transform:translate(940%, -50%) rotate(850deg);
+    }
+}
+@keyframes bannerMockupAni {
+    0%{clip-path: polygon(0 0, 0 0, 0 0, 0 0, 0 0, 0 0); }
+    5%{clip-path: polygon(43% 0, 42% 0, 0 100%, 0 100%, 0 0);}
+    40%{clip-path: polygon(72% 0, 73% 0, 33% 100%, 0 100%, 0 0);}
+    65%{clip-path: polygon(100% 0, 100% 0, 58% 100%, 0 100%, 0 0);}
+    85%{clip-path: polygon(100% 0, 100% 81%, 93% 100%, 0 100%, 0 0);}
+    100%{clip-path: polygon(100% 0, 100% 100%, 100% 100%, 0 100%, 0 0);}
+}
